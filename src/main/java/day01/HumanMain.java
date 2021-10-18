@@ -1,4 +1,4 @@
-package consultation01;
+package day01;
 
 import java.util.Scanner;
 
