@@ -1,4 +1,3 @@
 # java-sv2-daily-labs02
-Java nyelvi elemek - Konzultációs feladatok -
-2. hét -
-Bevezetés a Java osztályok használatába
+Konzultációs feladatok - 2. hét -
+Java nyelvi elemek: Bevezetés a Java osztályok használatába
