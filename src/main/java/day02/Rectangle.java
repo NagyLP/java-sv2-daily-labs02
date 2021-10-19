@@ -5,7 +5,7 @@ public class Rectangle {
     private double aSide;
     private double bSide;
 
-    public Human (double aSide, double bSide) {
+    public Rectangle (double aSide, double bSide) {
         this.aSide = aSide;
         this.bSide = bSide;
     }
@@ -17,4 +17,8 @@ public class Rectangle {
     public void setbSide(double distance) {this.bSide = distance;}
 
     public String getInfo() {return "Egyik oldal: " +aSide+ " ; " +" Másik oldal: " +bSide;}
+
+    public String caclculateArea() {return "Terület = Egyik oldal: " +aSide+ " * " +" Másik oldal: " +bSide+ " = " +aSide*bSide;}
+
+
 }
