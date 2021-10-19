@@ -9,12 +9,12 @@ public class Geometry {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Kérem az egyik oldal hosszát: ");
-        String aSide = scanner.nextLine();
+        double aSide = scanner.nextDouble();
 
-        System.out.println("Kérem az életkort: ");
-        int age = scanner.nextInt();
+        System.out.println("Kérem a másik oldal hosszát: ");
+        double bSide = scanner.nextDouble();
 
-        Rectangle rectangle = new Rectangle(1.5, 2.6 );
+        Rectangle rectangle = new Rectangle(aSide, bSide);
 
         System.out.println("A következő adatokat rögzítetem: " +rectangle.getInfo());
         System.out.println("Terület: " +rectangle.caclculateArea());
